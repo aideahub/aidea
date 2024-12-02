@@ -22,9 +22,6 @@ const Navigation = ({ user, onLogout }) => {
         </button>
         <ul className={`nav-menu ${isMenuOpen ? 'show' : ''}`}>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/features">Features</Link></li>
-          <li><Link to="/style">Style</Link></li>
-          <li><Link to="/living">Living</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/register">Register</Link></li>
           {!user ? (
