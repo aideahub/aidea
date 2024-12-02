@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/aideablog_react/static/css/main.ea2a45eb.css",
+    "main.js": "/aideablog_react/static/js/main.4bc68a42.js",
+    "static/js/453.aaa63783.chunk.js": "/aideablog_react/static/js/453.aaa63783.chunk.js",
+    "static/media/logo.svg": "/aideablog_react/static/media/logo.f0a0640155d5dc9d965857dfccb6bd5a.svg",
+    "index.html": "/aideablog_react/index.html",
+    "main.ea2a45eb.css.map": "/aideablog_react/static/css/main.ea2a45eb.css.map",
+    "main.4bc68a42.js.map": "/aideablog_react/static/js/main.4bc68a42.js.map",
+    "453.aaa63783.chunk.js.map": "/aideablog_react/static/js/453.aaa63783.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea2a45eb.css",
+    "static/js/main.4bc68a42.js"
+  ]
+}
