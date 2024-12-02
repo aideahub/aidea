@@ -1,6 +1,6 @@
 {
-  "name": "blog_react",
-  "homepage": "https://aideahub.github.io/aideablog_react/",
+  "name": "aideahub",
+  "homepage": "https://aideahub.github.io/aidea/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
