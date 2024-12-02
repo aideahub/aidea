@@ -11,7 +11,7 @@ const HomePage = () => {
   const newsFeed = [
     {
       id: 1,
-      title: 'Comming Soon',
+      title: 'Coming Soon',
       summary: '',
       url: ''
     },
