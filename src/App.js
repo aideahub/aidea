@@ -36,7 +36,7 @@ const App = () => {
       >
         <Routes>
           <Route path="/" element={<HomePage/>} />
-          <Route path="/features" element={<HomePage/>} />
+          <Route path="/aidea/" element={<HomePage/>} />
         </Routes>
       </Layout>
     </Router>
