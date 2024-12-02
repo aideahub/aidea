@@ -1,1 +1,1 @@
-# aideablog_react
+# AIdea Hub
