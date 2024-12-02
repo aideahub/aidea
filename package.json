@@ -1,6 +1,6 @@
 {
   "name": "aideahub",
-  "homepage": "https://aideahub.github.io/aidea/",
+  "homepage": "https://aideahub.github.io/aidea",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
