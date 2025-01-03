@@ -7,7 +7,7 @@ const Post = ({ post }) => (
       <img src={post.image} alt={post.imageAlt} className="post-image" />
       <h2>{post.title}</h2>
       <p>{post.excerpt}</p>
-      <a href={`/post/${post.id}`} className="read-more">Continue Reading</a>
+      <a href={`/aidea/post/${post.id}`} className="read-more">Continue Reading</a>
     </article>
   );
 

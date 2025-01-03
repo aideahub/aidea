@@ -30,16 +30,16 @@ const App = () => {
 
   return (
     <Router>
-      <Layout 
-        user={user} 
-        onLogout={handleLogout} 
-        darkMode={darkMode} 
+      <Layout
+        user={user}
+        onLogout={handleLogout}
+        darkMode={darkMode}
         toggleDarkMode={toggleDarkMode}
       >
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/aidea/" element={<HomePage/>} />
-          <Route path='/post/gnn-introduction' element={<IntroductionToGNN/>} />
+          <Route path='/aidea/post/gnn-introduction' element={<IntroductionToGNN/>} />
         </Routes>
       </Layout>
     </Router>
