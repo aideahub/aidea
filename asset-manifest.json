@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/aidea/static/css/main.ea2a45eb.css",
-    "main.js": "/aidea/static/js/main.e9642563.js",
+    "main.js": "/aidea/static/js/main.e6b2b84e.js",
     "static/js/453.ad8358d7.chunk.js": "/aidea/static/js/453.ad8358d7.chunk.js",
+    "static/media/GNNIntro.png": "/aidea/static/media/GNNIntro.f95ebc1622348afe5a74.png",
     "static/media/logo.svg": "/aidea/static/media/logo.f0a0640155d5dc9d965857dfccb6bd5a.svg",
     "index.html": "/aidea/index.html",
     "main.ea2a45eb.css.map": "/aidea/static/css/main.ea2a45eb.css.map",
-    "main.e9642563.js.map": "/aidea/static/js/main.e9642563.js.map",
+    "main.e6b2b84e.js.map": "/aidea/static/js/main.e6b2b84e.js.map",
     "453.ad8358d7.chunk.js.map": "/aidea/static/js/453.ad8358d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2a45eb.css",
-    "static/js/main.e9642563.js"
+    "static/js/main.e6b2b84e.js"
   ]
 }
