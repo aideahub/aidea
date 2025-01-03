@@ -2,10 +2,11 @@ import React from 'react';
 import Post from '../components/post';
 import NewsFeed from '../components/newsfeed';
 import Newsletter from '../components/newsletterSubscription';
+import IntroductionToGNNPost from './posts/gnn/introGNN';
 
 const HomePage = () => {
   const posts = [
-
+    IntroductionToGNNPost
   ];
 
   const newsFeed = [

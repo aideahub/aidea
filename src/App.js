@@ -9,6 +9,8 @@ import HomePage from './pages/homepage';
 //import RegisterPage from './pages/RegisterPage';
 //import LoginPage from './pages/LoginPage';
 import './styles.css';
+import IntroductionToGNNPost from './pages/posts/gnn/introGNN';
+import IntroductionToGNN from './pages/posts/gnn/introGnnsite';
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -37,6 +39,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/aidea/" element={<HomePage/>} />
+          <Route path='/post/gnn-introduction' element={<IntroductionToGNN/>} />
         </Routes>
       </Layout>
     </Router>
