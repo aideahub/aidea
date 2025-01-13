@@ -1,13 +1,30 @@
-import React from 'react';
-import Post from '../components/post';
+import React, { useState, useEffect } from 'react';
+import PostDetails from '../components/postDetails';
 import NewsFeed from '../components/newsfeed';
 import Newsletter from '../components/newsletterSubscription';
-import IntroductionToGNNPost from './posts/gnn/introGNN';
+import GNNPostsList from './posts/gnn/introGNN';
+import REST_API from './rest_api';
 
 const HomePage = () => {
-  const posts = [
-    IntroductionToGNNPost
-  ];
+
+  const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchPosts = async () => {
+      try {
+        setLoading(true);
+        const data = await REST_API.listPostsDetails();
+        setPosts(data)
+        console.log("Fetched posts:", data); // Handle the data as needed
+      } catch (error) {
+        console.error("Error fetching posts:", error);
+        setLoading(false);
+      }
+    };
+    fetchPosts();
+  }, []);
 
   const newsFeed = [
     {
@@ -23,7 +40,7 @@ const HomePage = () => {
     <>
       <section className="content">
         {posts.length > 0 ? (
-          posts.map(post => <Post key={post.id} post={post} />)
+          posts.map(post => <PostDetails key={post.id} post={post} />)
         ) : (
           <p className="no-content-message">No content available. Check back soon!</p>
         )}
